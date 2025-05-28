@@ -1,8 +1,3 @@
-//
-// Created by rahul on 5/27/25.
-//
-
-
 #include <iostream>
 #include <string>
 #include <vector>

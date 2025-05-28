@@ -1,7 +1,3 @@
-//
-// Created by rahul on 5/23/25.
-//
-
 #ifndef SCOPEDFDREDIRECT_H
 #define SCOPEDFDREDIRECT_H
 #include <string>

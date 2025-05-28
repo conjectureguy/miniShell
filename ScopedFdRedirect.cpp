@@ -1,7 +1,3 @@
-//
-// Created by rahul on 5/23/25.
-//
-
 #include "ScopedFdRedirect.h"
 
 #include <fcntl.h>

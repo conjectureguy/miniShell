@@ -20,17 +20,3 @@ int main() {
         run_piped(expanded_tokens);
     }
 }
-
-/*
- * DONE:
- * take input, parse it
- * fork() and execvp()
- * implement cd and exit
- * implement io redirection -> DONE using RAII style class
- * pipes
- * command history
- * handled wildcards
- *
- * REMAINING:
- * fork bomb detection file locking checking
- */

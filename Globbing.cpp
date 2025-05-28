@@ -1,7 +1,3 @@
-//
-// Created by rahul on 5/27/25.
-//
-
 #include <string>
 #include <glob.h>
 #include <vector>
@@ -10,12 +6,10 @@ bool needs_globbing(const std::string &tok) {
     return tok.find_first_of("*?[") != std::string::npos;
 }
 
-// Expand a single token into zero-or-more matches:
 std::vector<std::string> expand_glob(const std::string &pattern) {
     glob_t results;
     std::vector<std::string> out;
 
-    // GLOB_TILDE will expand ~ to $HOME
     int flags = GLOB_TILDE | GLOB_MARK;
     int ret = glob(pattern.c_str(), flags, nullptr, &results);
     if (ret == 0) {
@@ -24,7 +18,6 @@ std::vector<std::string> expand_glob(const std::string &pattern) {
         }
     }
     globfree(&results);
-    // On no matches, you can choose to leave the pattern unexpanded:
     if (out.empty()) out.push_back(pattern);
     return out;
 }
