@@ -9,11 +9,11 @@ pkg_check_modules(READLINE REQUIRED readline)
 
 # Define the executable and its sources
 add_executable(miniShell
-  main.cpp
-  ScopedFdRedirect.cpp
-  Globbing.cpp
-  Tokenize.cpp
-  Run.cpp
+        src/Main.cpp
+        src/ScopedFdRedirect.cpp
+        src/Globbing.cpp
+        src/Tokenize.cpp
+        src/Run.cpp
 )
 
 

@@ -11,7 +11,7 @@
 #include <readline/history.h>
 #include <chrono>
 
-#include "ScopedFdRedirect.h"
+#include "../include/ScopedFdRedirect.h"
 
 namespace fs = std::filesystem;
 
