@@ -8,7 +8,7 @@ A minimal Linux shell emulator written in C++. Demonstrates basic shell function
   Forks and execs external programs.
 
 - **Input/Output Redirection**  
-  Supports `<`, `>`, and `>>` for redirecting stdin/stdout.
+  Supports `<`, `>`, and `2>` for redirecting stdin/stdout.
 
 - **Command Piping**  
   Chains multiple commands using `|`.
