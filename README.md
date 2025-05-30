@@ -1,6 +1,6 @@
 # miniShell
 
-A minimal, educational Linux shell emulator written in C++. Demonstrates basic shell functionality by leveraging system calls for process management, I/O redirection, job control, and more.
+A minimal Linux shell emulator written in C++. Demonstrates basic shell functionality by leveraging system calls for process management, I/O redirection, job control, and more.
 
 ## Features
 
